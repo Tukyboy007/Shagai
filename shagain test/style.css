@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Cambay:wght@700&family=Noto+Sans+TC&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.wrapper {
+    width: 395px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.wrapper1 {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(236, 210, 162);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.player-0-panel {
+    width: 500px;
+    float: left;
+    height: 700px;
+    background-image: url("or main.jpg");
+    background-size: 395px;
+}
+
+.selectedBorder1 {
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    top: 40%;
+    left: 17%;
+    background-image: url("dadB.jpg");
+    background-size: 40px 40px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.selectedBorder1-1 {
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    top: 40%;
+    left: 17%;
+    background-image: url("dadB.jpg");
+    background-size: 40px 40px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.selectedBordered {
+    box-shadow: 0px 10px 50px rgb(51, 21, 21);
+}
+
+.wrapper1 .pNameBorder {
+    background-color: rgb(204, 181, 50);
+    height: 46px;
+    width: 150px;
+    position: relative;
+    top: 10%;
+    left: 37%;
+}
+
+.playerName1 {
+    position: absolute;
+    border: none;
+    top: 30%;
+    left: 38%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.iconName1 {
+    position: absolute;
+    background-color: rgb(241, 229, 210);
+    width: 100px;
+    top: 92%;
+    left: 11%;
+    text-align: center;
+}
+
+.iconName11 {
+    position: absolute;
+    background-color: rgb(241, 229, 210);
+    width: 100px;
+    top: 92%;
+    left: 63%;
+    text-align: center;
+}
+
+.winnerName {
+    position: absolute;
+    background-color: rgb(241, 229, 210);
+    width: 100px;
+    top: 63%;
+    left: 40.8%;
+    text-align: center;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.playerName1-1 {
+    position: absolute;
+    border: none;
+    top: 30%;
+    left: 38%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.choose {
+    position: absolute;
+    top: 75%;
+    left: 41%;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.choose1 {
+    position: absolute;
+    top: 75%;
+    left: 41%;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.choose:hover {
+    border-style: groove;
+}
+
+.choose1:hover {
+    border-style: groove;
+}
+
+.pNameBorder .pName {
+    font-size: 28px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.selectedBorder1 .selectedPicture1 {
+    width: 150px;
+    position: relative;
+    top: 7.8%;
+    right: 10%;
+    visibility: none;
+}
+
+.selectedBorder1-1 .selectedPicture1-1 {
+    width: 150px;
+    position: relative;
+    top: 7.8%;
+    right: 10%;
+    visibility: none;
+}
+
+.selectedBorder2 {
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    top: 40%;
+    right: 17%;
+    background-image: url("momB.jpg");
+    background-size: 40px 40px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.selectedBorder2-2 {
+    position: absolute;
+    width: 120px;
+    height: 125px;
+    top: 40%;
+    right: 17%;
+    background-image: url("momB.jpg");
+    background-size: 40px 40px;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.selectedBorder2 .selectedPicture2 {
+    width: 150px;
+    position: relative;
+    top: 10%;
+    right: 10%;
+    visibility: none;
+}
+
+.selectedBorder2-2 .selectedPicture2-2 {
+    width: 150px;
+    position: relative;
+    top: 10%;
+    right: 10%;
+    visibility: none;
+}
+
+.player1 {
+    width: 35px;
+    top: 74%;
+    left: 19%;
+    position: absolute;
+}
+
+.zurag {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 142px;
+}
+
+.winner {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 142px;
+    background-color: rgb(192, 134, 67);
+}
+
+.naad {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    font-size: 50px;
+    top: 220px;
+    left: 80px;
+}
+
+.naadgai {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+    top: 245px;
+    left: 65px;
+}
+
+.player2 {
+    width: 35px;
+    top: 74%;
+    left: 70%;
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.ber1 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+
+.ber2 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+.ber3 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+}
+
+.ber4 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+.br1Title {
+    position: absolute;
+    top: 28%;
+    left: 21%;
+    background-color: rgb(238, 223, 192);
+    border-radius: 20%;
+}
+
+.br2Title {
+    position: absolute;
+    top: 28%;
+    left: 68%;
+    background-color: rgb(238, 223, 192);
+    border-radius: 20%;
+}
+
+.br3Title {
+    position: absolute;
+    top: 48%;
+    left: 21%;
+    background-color: rgb(238, 223, 192);
+    border-radius: 20%;
+}
+
+.br4Title {
+    position: absolute;
+    top: 48%;
+    left: 68%;
+    background-color: rgb(238, 223, 192);
+    border-radius: 20%;
+}
+
+.p1 {
+    position: absolute;
+    top: 83%;
+    left: 17%;
+    animation: move 2s linear;
+}
+
+.p2 {
+    position: absolute;
+    top: 83%;
+    left: 68%;
+    animation: move 2s linear;
+}
+
+.s1 {
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    font-size: 50px;
+}
+
+.s2 {
+    position: absolute;
+    top: 2%;
+    left: 74%;
+    font-size: 50px;
+}
+
+.bck1Color {
+    position: absolute;
+    background-color: rgb(221, 142, 69);
+    top: 80.5%;
+    left: 14.5%;
+    height: 75px;
+    width: 76px;
+}
+
+.pic1 {
+    position: absolute;
+    height: 68px;
+    left: -10.5%;
+    top: 10%;
+    /* background-color: white; */
+}
+
+.bck2Color {
+    position: absolute;
+    background-color: rgb(221, 142, 69);
+    top: 80.5%;
+    left: 66.3%;
+    height: 76px;
+    width: 72px;
+}
+
+.pic2 {
+    position: absolute;
+    height: 67px;
+    left: -10.5%;
+    top: 10%;
+    /* background-color: white; */
+}
+
+.hand1 {
+    position: absolute;
+    height: 70px;
+    top: 62.5%;
+    left: 19%;
+    animation: scale 2s alternate infinite;
+}
+
+.hand2 {
+    position: absolute;
+    height: 50px;
+    height: 70px;
+    top: 62.5%;
+    left: 70%;
+    animation: scale 2s alternate infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.uActive {
+    visibility: hidden;
+}
+
+.pos1 {
+    top: 69%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos2 {
+    top: 64.8%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos3 {
+    top: 59.7%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos4 {
+    top: 55.2%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos5 {
+    top: 51%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos6 {
+    top: 46.7%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos7 {
+    top: 42.2%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos8 {
+    top: 38%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos9 {
+    top: 33.5%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos10 {
+    top: 29.1%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos11 {
+    top: 24.8%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos12 {
+    top: 20.5%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos13 {
+    top: 16%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos14 {
+    top: 11.7%;
+    left: 39%;
+    animation: move 2s linear;
+}
+
+.pos15 {
+    top: 6.5%;
+    left: 38%;
+    animation: move 2s linear;
+}
+
+.pos16 {
+    top: 7%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos17 {
+    top: 11.8%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos18 {
+    top: 16.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos19 {
+    top: 21%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos20 {
+    top: 25.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos21 {
+    top: 30%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos22 {
+    top: 34%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos23 {
+    top: 38.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos24 {
+    top: 43%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos25 {
+    top: 47.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos26 {
+    top: 52%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos27 {
+    top: 56%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos28 {
+    top: 60.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos29 {
+    top: 65.3%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+.pos30 {
+    top: 69.5%;
+    left: 52%;
+    animation: move 2s linear;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+.pos1a {
+    top: 69%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos2a {
+    top: 64.8%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos3a {
+    top: 59.7%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos4a {
+    top: 55.2%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos5a {
+    top: 51%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos6a {
+    top: 46.7%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos7a {
+    top: 42.2%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos8a {
+    top: 38%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos9a {
+    top: 33.5%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos10a {
+    top: 29.1%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos11a {
+    top: 24.8%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos12a {
+    top: 20.5%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos13a {
+    top: 16%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos14a {
+    top: 11.7%;
+    left: 33%;
+    animation: move 2s linear;
+}
+
+.pos15a {
+    top: 6.5%;
+    left: 32%;
+    animation: move 2s linear;
+}
+
+.pos16a {
+    top: 7%;
+    left: 58%;
+    animation: move 2s linear;
+}
+
+.pos17a {
+    top: 11.8%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos18a {
+    top: 16.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos19a {
+    top: 21%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos20a {
+    top: 25.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos21a {
+    top: 30%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos22a {
+    top: 34%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos23a {
+    top: 38.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos24a {
+    top: 43%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos25a {
+    top: 47.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos26a {
+    top: 52%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos27a {
+    top: 56%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos28a {
+    top: 60.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos29a {
+    top: 65.3%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
+
+.pos30a {
+    top: 69.5%;
+    left: 58.5%;
+    animation: move 2s linear;
+}
